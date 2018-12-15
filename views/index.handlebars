@@ -1,0 +1,20 @@
+
+
+<div class="container">
+
+    {{#each articles}}
+        <div class="card mb-3">
+            <div class="card-header text-center text-white bg-info">
+                <h5>{{this.title}}</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-8">
+                        <p href="{{this.link}}">{{this.link}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+    
+</div>

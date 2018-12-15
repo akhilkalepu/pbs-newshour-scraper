@@ -1,0 +1,29 @@
+{
+  "name": "mongoose-cheerio-app",
+  "version": "1.0.0",
+  "description": "A web app for commenting on the latest news articles, utilizing Mongoose and Cheerio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theinfamousAK/mongoose-cheerio-app.git"
+  },
+  "author": "Akhil Kalepu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theinfamousAK/mongoose-cheerio-app/issues"
+  },
+  "homepage": "https://github.com/theinfamousAK/mongoose-cheerio-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script
+        type="text/javascript"
+        src="../../public/js/app.js">
+    </script>
+    
+    <title>PBS NewsHour Scraper</title>
+</head>
+
+    <body>
+
+        <nav>
+            <div class="nav-wrapper">
+                <a href="/" class="brand-logo">PBS NewsHour Scraper</a>
+                <ul id="nav-mobile" class="right">
+                    <li><a href="/saved">Saved Articles</a></li>
+                    <li><a href="/scrape" class="waves-effect waves-light btn">Scrape New Articles</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            {{{ body }}}
+        </div>
+
+    </body>
+
+</html>
